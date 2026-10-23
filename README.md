@@ -21,7 +21,7 @@ Cilj projekta je da obezbedi stabilno, jednostavno i potpuno izvorno (native) re
 Pokretanje aplikacije:
 
 ```bash
-#  ./celik_linux
+#  ./celix
 ```
 
 ---
