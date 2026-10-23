@@ -44,4 +44,4 @@ Ovaj projekat je nezavisan, open-source projekat i **nije** zvanična aplikacija
 
 ## Licenca
 
-Ovaj projekat je licenciran pod [GPL-2.0] licencom.
+Ovaj projekat je licenciran pod **[GPL-2.0]** licencom.
