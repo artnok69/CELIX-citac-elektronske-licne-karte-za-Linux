@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1250">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+   <OBJECT type="text/site properties">
+     <param name="Window Styles" value="0x800025">
+     <param name="FrameName" value="right">
+     <param name="comment" value="title:Online Help">
+     <param name="comment" value="base:index.htm">
+   </OBJECT>
+   <UL>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="O aplikaciji">
+            <param name="Local" value="pages/introduction.html">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Čitanje i prikaz podataka">
+            <param name="Local" value="pages/read_data.html">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Štampa podataka">
+            <param name="Local" value="pages/print_data.html">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Podešavanje rada aplikacije">
+            <param name="Local" value="pages/configuration.html">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Promena PIN-a">
+            <param name="Local" value="pages/change_password.html">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Prikaz sertifikata">
+            <param name="Local" value="pages/show_certificate.html">
+          </OBJECT>
+   </UL>
+</BODY>
+</HTML>

@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1250">
+<title>Čitanje i prikaz podataka</title>
+<link rel="stylesheet" type="text/css" href="../celik.css"/>
+</head>
+<body>
+<div class="Content">
+<h1>Čitanje i prikaz podataka</h1>
+<p>Podaci koji se čitaju iz ličnog dokumenta podeljeni su u blokove, a podaci u blokovima su zaštićeni od neovlašćenih izmena elektronskim 
+potpisima. Glavni blokovi podataka na ličnom dokumentu sadrže sledeće podatke (u zagradi su navedeni primeri, a ne kompletan spisak):</p>
+<p><ul>
+<li>podaci o dokumentu (period važenja, broj dokumenta),</li>
+<li>nepromenljivi tekstualni podaci o vlasniku (ime i prezime, datum rođenja),</li>
+<li>promenljivi tekstualni podaci o vlasniku (adresa stanovanja),</li>
+<li>fotografija vlasnika.</li>
+</ul></p>
+<p>Pored ovih podataka u čipu se nalaze elektronski sertifikati građanina, elektronski potpisi podataka, kao i sertifikati potpisnika 
+podataka iz ličnog dokumenta.</p>
+<p>Čitanje podataka se obavlja automatski čim se lični dokument umetne u čitač smart kartica. Podaci iz ličnog dokumenta ostaće prikazani i 
+kad se lični dokument izvadi iz čitača.</p>
+<p>Dok traje čitanje podataka na prozoru je prikazan tekst ČITANJE JE U TOKU.</p>
+<p>Ako je neki tekst duži od polja u kojem stoji onda se pun tekst može prikazati tako što će korisnik uperiti pokazivač miša u dato 
+polje. Svi tekstovi se mogu preuzeti iz svojih polja prečicom Ctrl+C sa tastature.</p>
+<p>Ako je datum važenja ličnog dokumenta istekao, odgovarajući datum će biti prikazan crvenom bojom. Datumi na ličnom dokumentu se porede sa 
+datumom na računaru, pa se preporučuje da vreme na računaru bude dobro podešeno.</p>
+<h3>Provera formata i potpisa</h3>
+<p>Čelik ima funkcionalnost provere potpisa blokova podataka. Ovu funkcionalnost treba uključiti zarad veće sigurnosti. Ako je provera 
+potpisa uključena onda aplikacija koristi sertifikate upisane u lični dokument, kao i sertifikate instalirane u magacinu sertifikata 
+operativnog sistema (eng. <em>certificate store</em>), da bi proverila elektronske potpise na kartici. Za uključivanje funkcionalnosti 
+provere potpisa vidite <a href="configuration.html">podešavanje rada aplikacije</a>.</p>
+<p>Kada je provera potpisa uključena prilikom čitanja kartice biće prikazana tri simbola za tri provere.
+Tri provere koje se mogu obaviti su:</p>
+<p><ul>
+<li>provera formata kartice (uključuje i verifikaciju potpisa ključnih podataka iz ličnog dokumenta),</li>
+<li>provera potpisa fiksnih podataka (što uključuje i fotografiju),</li>
+<li>provera potpisa promenljivih podataka,</li>
+</ul></p>
+<p>Prva provera se uključuje i isključuje opcijom menija "Proveri format kartice". Preostale provere se kontrolišu opcijom menija 
+"Proveri potpis blokova podataka". Provera je uključena ako u meniju pored odgovarajuće stavke stoji štrikla (&#x2714;).</p>
+<p>Svaka od tri gornje provere može biti u jednom od sledećih stanja, a simbol za svako stanje se vidi na glavnom prozoru aplikacije 
+kad je bar jedna provera uključena:</p>
+<p><ul>
+<li><img src="../images/Grey-minus-16.png" class="inline"/> - provera je isključena i preskače se,</li>
+<li><img src="../images/Grey-question-mark-16.png" class="inline"/> - provera je uključena i obaviće se kad dođe na red,</li>
+<li><img src="../images/Green-check-mark-16.png" class="inline"/> - provera je uspešno obavljena,</li>
+<li><img src="../images/Red-exclamation-16.png" class="inline"/> - provera je bila neuspešna jer je lični dokument izmenjen,</li>
+<li><img src="../images/Red-question-mark-16.png" class="inline"/> - provera je bila neuspešna jer odgovarajući sertifikati nisu instalirani.</li>
+</ul></p>
+<p>Ako korisnik uperi pokazivač miša na bilo koji od ovih simbola prikazaće se status u kome je odgovarajuća provera.</p>
+<p>Ako su sve uključene provere uspešno obavljene onda će se na prozoru u nastavku teksta "Digitalni potpis kartice" prikazati tekst 
+VERIFIKOVAN. Ako bar jedna provera nije uspešno obavljena onda će se na kraju svih provera prikazati tekst NIJE VERIFIKOVAN.</p>
+</div>
+</body>
+</html>
