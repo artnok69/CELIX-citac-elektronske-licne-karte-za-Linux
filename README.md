@@ -28,10 +28,16 @@ Pokretanje aplikacije:
 
 ## Desktop integracija
 
-Ukoliko želite da dodate prečicu u meni vašeg grafičkog okruženja, možete iskoristiti priloženi `.desktop` fajl:
+Za automatsku instalaciju aplikacije, ikonica i prečice u meniju grafičkog okruženja (za trenutnog korisnika, bez potrebe za `sudo`), pokrenite:
 
 ```bash
-cp celix.desktop ~/.local/share/applications/
+./install.sh
+```
+
+Za uklanjanje instalirane aplikacije i prečice:
+
+```bash
+./install.sh --uninstall
 ```
 
 ---
